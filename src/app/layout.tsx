@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Gym & Tonic AI",
   description: "A personalized virtual trainer with the goal of increasing your physical capabilities",
+  icons: {
+    icon: "/Logo.png", 
+  },
 };
 
 export default function RootLayout({
