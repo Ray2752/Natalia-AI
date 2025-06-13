@@ -4,6 +4,8 @@ import "./globals.css";
 import ConvexClerkProvider from "@/providers/ConvexClerkProvider";
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import { Toaster } from 'sonner';  
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,6 +46,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <Toaster richColors /> 
       </body>
     </html>
     </ConvexClerkProvider>
